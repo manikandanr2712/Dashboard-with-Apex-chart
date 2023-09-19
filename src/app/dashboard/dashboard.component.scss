@@ -23,14 +23,14 @@
   background-color: #088afe;
   color: #fff;
   width: auto;
-  height: 100vh;
+  // height: 100vh;
 }
 .gSideBar {
-//   width: 200px;
+  // width: 70%;
   transition: 0.4s;
 }
 .dSideBar {
-//   width: 60px;
+  // width: 30%;
   transition: 0.4s;
 }
 
@@ -91,12 +91,12 @@
   visibility: hidden;
 }
 
-.gSideBarAlt {
-  width: 160px;
-}
-.dSideBarAlt {
-  width: 60px;
-}
+// .gSideBarAlt {
+//   width: 160px;
+// }
+// .dSideBarAlt {
+//   width: 60px;
+// }
 .nav.flex-column li:last-child {
   position: absolute;
   bottom: 0;
@@ -119,26 +119,40 @@
 .fa-bars {
   cursor: pointer;
 }
-@media only screen and (max-width: 750px) {
-    .gSideBar {
-        //   width: 200px;
-        width: min-content;
-          transition: 0.4s;
-        }
-        .dSideBar {
-        //   width: 60px;
+// @media only screen and (max-width: 750px) {
+//     .gSideBar {
+//         //   width: 200px;
+//         width: min-content;
+//           transition: 0.4s;
+//         }
+//         .dSideBar {
+//         //   width: 60px;
         
-        width: min-content;
-          transition: 0.4s;
-        }
+//         width: min-content;
+//           transition: 0.4s;
+//         }
         
-  }
+//   }
   /* ----------- Non-Retina Screens ----------- */
 @media screen 
-and (min-device-width: 400px) 
+and (min-device-width: 375px) 
 and (max-device-width: 832px) 
 and (-webkit-min-device-pixel-ratio: 1) { 
   .mSideBar {
-    width: 75%;
+    width: 70%;
+  }
+  .gSideBar {
+    width: 30%;
+  }
+}
+@media screen 
+and (min-device-width: 375px) 
+and (max-device-width: 832px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+  .dSideBar {
+    width: 70%;
+  }
+  .gSideBar {
+    width: 30%;
   }
 }

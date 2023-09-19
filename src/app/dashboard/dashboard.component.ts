@@ -37,6 +37,7 @@ export class DashboardComponent {
     } else {
       this.statusLink = true;
     }
+    console.log(this.status)
   }
 
 }
