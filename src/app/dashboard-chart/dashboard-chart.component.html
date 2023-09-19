@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-header">Overall Statics</div>
+  <hr>
+  <div class="card-body">
+    <div id="chart">
+      <apx-chart
+        [series]="chartOptions?.series"
+        [chart]="chartOptions?.chart"
+        [dataLabels]="chartOptions?.dataLabels"
+        [plotOptions]="chartOptions?.plotOptions"
+        [yaxis]="chartOptions?.yaxis"
+        [xaxis]="chartOptions?.xaxis"
+        [fill]="chartOptions?.fill"
+        [title]="chartOptions?.title"
+        [labels]="chartOptions?.labels"
+        [legend]="chartOptions?.legend"
+        [colors]="chartOptions?.colors"
+      ></apx-chart>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/log5.PNG");
+  // background-image: url("https://adsofreight.com/storage/home-settings/0ReVxP0qKv7LNsclz5YdpKMzgFmWBLbmpTBHxG3S.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.row {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.left-section {
+  background-color: #f8f9fa8f;
+  padding: 40px;
+}
+
+.right-section {
+  background-image: url("../../assets/truck2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+}
+.justify-space {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.container {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #088afe;
+    color: #fff;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .min-hei {
+    max-height: 365px;
+    overflow: auto;
+  }

@@ -1,0 +1,73 @@
+<div class="container">
+    <h2> User Details</h2>
+  <div class="row">
+    <!-- User Details (4 columns) -->
+    <div class="col-md-4">
+      <div class="card user-card">
+        <div class="row">
+          <div class="col-6 p-3"><i class="fa fa-message"></i></div>
+          <div class="col-6 text-end p-3"><i class="fa fa-ellipsis"></i></div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="../../assets/myimg.PNG"
+              class="rounder-corner"
+              width="100px"
+              height="100px"
+              alt="ss"
+            />
+          </div>
+          <div class="text-center">
+            <p>{{ userName }}</p>
+            <span>Driver</span>
+          </div>
+        </div>
+        <div class="row p-4 text-center">
+          <div class="col-4">
+            <div class="card kms h-auto">
+              <b>380</b>
+              <span class="text-success">Miles</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card kms h-auto">
+              <b>$ 380</b>
+              <span class="text-success">Rate/Mile</span>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card kms h-auto">
+              <b>5 hrs</b>
+              <span class="text-success">Per Week</span>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white" />
+        <div class="row text-white">
+          <div class="col-6 p-3">Status</div>
+          <div class="col-6 text-end p-3">{{ status }}</div>
+        </div>
+        <div class="row text-white">
+          <div class="col-6 p-3">Mobile</div>
+          <div class="col-6 text-end p-3">{{ phone }}</div>
+        </div>
+        <div class="row text-white">
+          <div class="col-6 p-3">Email</div>
+          <div class="col-6 text-end p-3">{{ email }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Additional User Information (8 columns) -->
+    <div class="col-md-8">
+      <div class="card ">
+        <!-- Replace the content below with additional user information -->
+        <h2>Additional Information</h2>
+        <p>Address: 123 Main St, City</p>
+        <p>Phone: (555) 123-4567</p>
+        <!-- Add more additional information here if needed -->
+      </div>
+    </div>
+  </div>
+</div>

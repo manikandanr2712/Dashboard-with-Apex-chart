@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>User Lists</h2>
+  <div class="row">
+    <div class="col-12">
+      <!-- <div class="card"> -->
+        <div class="card-body">
+          <!-- <h5 class="card-title">Drivers List</h5> -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Driver Name</th>
+                <th>Driver Email</th>
+                <th>Total Kms</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let data of users; let i = index;">
+              <tr>
+                <td data-name="No">{{ i+1 }}</td>
+                <td data-name="Driver Name">{{data.name}}</td>
+                <td data-name="Driver Email :"> {{data.email}}</td>
+                <td data-name="Kms :">{{data.kms}}</td>
+                <td data-name="Stauts">{{data.status}}</td>
+                <td data-name="Äction"><button class="btn btn-success" (click)="details(i+1,data)">View Details</button></td>
+              </tr>      
+            </tbody>
+      
+          </table>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</div>

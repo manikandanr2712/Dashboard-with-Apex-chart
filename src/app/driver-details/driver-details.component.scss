@@ -1,0 +1,15 @@
+  /* Optional: Adjust the margin and padding for better spacing */
+  .user-card.user-card{
+    height: 84vh;
+    background-color: rgb(42, 42, 77);
+  }
+  .user-card h2,p,i,span {
+    color: #fff;
+  }
+
+  .rounder-corner {
+    border-radius: 50%;
+  }
+  .h-auto {
+    height: auto;
+  }
