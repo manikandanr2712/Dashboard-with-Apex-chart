@@ -27,6 +27,6 @@ export class LoginComponent {
  }
  loginApi() {
   this.authService.signIn(this.signInForm.value);
-  this.router.navigate(['dashboard'])
+  this.router.navigate(['dashboard/dashboard'])
 }
 }
